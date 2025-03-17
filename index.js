@@ -34,3 +34,8 @@ const users = [
     name: "joseph"
   },
 ]
+
+// app.httpmethod(route,handler/controller
+app.get("/",(req,res)=>{
+  res.send("Server is live!")
+})
